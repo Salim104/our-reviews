@@ -60,8 +60,8 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 // show person based on item
-function showPerson(person) {
-  const item = reviews[person];
+function showPerson(personi) {
+  const item = reviews[personi];
   img.src = item.img;
   author.textContent = item.name;
   job.textContent = item.job;
